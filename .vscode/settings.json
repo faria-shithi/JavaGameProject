@@ -1,0 +1,5 @@
+{
+  "code-runner.executorMap": {
+    "java": "cd $workspaceRoot; if (!(Test-Path out)) { New-Item -ItemType Directory out | Out-Null }; javac -d out src\\config\\GameConfig.java src\\entities\\Renderable.java src\\entities\\Updatable.java src\\entities\\Collidable.java src\\entities\\GameObject.java src\\entities\\EggState.java src\\entities\\Egg.java src\\entities\\Basket.java src\\physics\\CollisionResult.java src\\physics\\CollisionDetector.java src\\physics\\PhysicsEngine.java src\\game\\GameState.java src\\game\\ScoreManager.java src\\game\\InputHandler.java src\\game\\GameLoop.java src\\game\\GamePanel.java src\\ui\\GameRenderer.java src\\ui\\ScoreDisplay.java src\\audio\\AudioManager.java src\\game\\Game.java src\\BasketEgg.java; if ($?) { java -cp out BasketEgg }"
+  }
+}

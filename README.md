@@ -8,15 +8,7 @@
 ![Engine](https://img.shields.io/badge/Engine-Java%20Swing-yellow?style=flat-square)
  
 ---
- 
-## 📸 Screenshots
- 
-| Gameplay | Game Over |
-|:---:|:---:|
-| *attach screenshot here* | *attach screenshot here* |
- 
----
- 
+
 ## 🚀 Quick Start
  
 > **Requirement:** Java 17 or newer must be installed and available on the `PATH`.

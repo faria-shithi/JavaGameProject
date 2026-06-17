@@ -14,7 +14,8 @@
 > **Requirement:** Java 17 or newer must be installed and available on the `PATH`.
  
 ```powershell
-cd C:\Users\Qbits\Documents\BasketEgg
+git clone git@github.com:faria-shithi/JavaGameProject.git
+cd JavaGameProject
 .\run.bat
 ```
  
